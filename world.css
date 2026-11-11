@@ -1,0 +1,111 @@
+/* Add your own styles */
+
+
+/* ==== GENERAL PAGE STYLING ==== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef3f7;
+}
+
+/* ==== HEADER ==== */
+header {
+    background-color: #3c4a63;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* ==== MAIN CONTAINER ==== */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* ==== INPUT + BUTTON ROW ==== */
+#controls {
+    margin-bottom: 20px;
+    display: flex;              
+    align-items: center;        
+    justify-content: center;    
+    gap: 10px;                  
+}
+
+#controls label {
+    font-weight: bold;
+}
+
+/* shrink input slightly so both buttons fit on the same row */
+#country {
+    width: 55%;                 
+    padding: 10px;
+    border: 1px solid #aac0d4;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* ==== BUTTON STYLING ==== */
+button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+#lookup {
+    background-color: #3bb273; /* green */
+}
+
+#lookup:hover {
+    background-color: #319964;
+}
+
+#lookup-cities {
+    background-color: #3a82f6; /* blue */
+}
+
+#lookup-cities:hover {
+    background-color: #2c63c9;
+}
+
+/* ==== TABLE STYLING ==== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Header */
+table thead {
+    background-color: #3c4a63;
+    color: white;
+    font-weight: bold;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #d0d7de;
+    text-align: left;
+}
+
+/* rows */
+table tbody tr:nth-child(even) {
+    background-color: #f7f9fb;
+}
+
+/* Hover highlight */
+table tbody tr:hover {
+    background-color: #e6eef4;
+}
